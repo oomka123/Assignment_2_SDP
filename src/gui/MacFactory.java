@@ -1,4 +1,13 @@
 package gui;
 
-public class MacFactory {
+public class MacFactory implements GUIFactory {
+    @Override
+    public Button createButton() {
+        return new MacButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new MacCheckbox();
+    }
 }

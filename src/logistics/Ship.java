@@ -1,4 +1,6 @@
-public class Ship implements Transport{
+package logistics;
+
+public class Ship implements Transport {
 
     @Override
     public void deliver(){

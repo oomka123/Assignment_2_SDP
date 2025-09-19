@@ -1,4 +1,6 @@
 package gui;
 
-public class Factory {
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
 }
